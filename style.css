@@ -1,18 +1,55 @@
+*{
+    margin: 20px;
+}
 .heading1{
     text-align: center;
-    background-color: grey;
+    background-color: rgb(238, 238, 238);;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .heading2 h1{
     font-size: 26px;
+    margin: auto;
 }
 .headPara{
     text-align: center;
     background-color: grey;
 }
-.images img{
-    width: 20px;
-    height: 100px;
+.image{
+    border: none;
+}
+.image img{
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+}
+.last{
+    width: 95%;
+    border-collapse: collapse;
+}
+.last th, .last td{
+    border: 1px solid rgb(169, 169, 169);
+}
+th{
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+}
+td{
+    border: none;
+    padding: 10px;
+}
+table, th, td{
+   text-align: center;
 }
 .line p{
     font-style: italic;
+    margin: auto;
+}
+.footer{
+    width: 95%;
+    padding: 5px;
+    background-color: rgb(238, 238, 238);
+}
+.footer hr{
+    color: black;
 }
